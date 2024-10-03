@@ -4,7 +4,7 @@ const initialState = {
   bad: 0
 }
 
-const counterReducer = (state = initialState, action) => {
+const counterReducer = (state, action) => {
   console.log(action)
   switch (action.type) {
     case 'GOOD':
